@@ -1,5 +1,5 @@
 // // ただのスライドショー + opacity0, transition(allのみ) + .slide-item.active
-const slideItems =document.getElementsByClassName("slide-item");
+const slideItems = document.getElementsByClassName("slide-item");
 
 const maxSlideNum = slideItems.length - 1
 let activeNum = 0
